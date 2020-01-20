@@ -1,0 +1,61 @@
+.theme{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:500px;
+	height:400px;
+}
+.joystick-button {
+	background:black;
+	color:white;
+	padding:5px;
+}
+.joystick-button.active{
+	background:white;
+	color:red;
+}
+
+.joystick-analog-wrapper {
+	position:absolute;
+	top:121px;
+	left:89px;
+	height:70px;
+	width:70px;
+	border-radius:100%;
+}
+.joystick-analog {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:50px;
+	height:50px;
+	margin-left:-25px;
+	margin-top:-25px;
+	background:#333;
+	border-radius:100%;
+}
+.joystick-analog.active {
+	background:white;
+}
+.joystick-analog-right-wrapper {
+	position:absolute;
+	top:204px;
+	left:283px;
+	height:70px;
+	width:70px;
+	border-radius:100%;
+}
+.joystick-analog-right {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:50px;
+	height:50px;
+	margin-left:-25px;
+	margin-top:-25px;
+	background:#333;
+	border-radius:100%;
+}
+.joystick-analog-right.active {
+	background:white;
+}
